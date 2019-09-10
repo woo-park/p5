@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        canvas{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, world!</h1>
+    <canvas width ="200" height="200">
+
+    </canvas>
+    <script>
+        let c = document.querySelector('canvas');
+        let ctx = c.getContext('2d');
+        ctx.moveTo(0,0);            // from 0,0 to 200, 100
+        ctx.lineTo(200, 100);       // draw stroke on the line we just 
+        ctx.stroke();
+    </script>
+</body>
+</html>
