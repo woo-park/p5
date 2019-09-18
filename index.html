@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Woo Park Interactive Design</title>
+    <style>
+        body{
+            background-color:azure;
+            height:100vh;
+            margin:0;
+            padding:0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .links li a {
+            margin-left: -60px;
+            
+            text-decoration: none;
+            color:darkolivegreen
+        }
+        .links li a:hover{
+            color: rosybrown;
+        }
+        .links{
+            list-style: none;
+        }
+        .links li{
+            padding:10px;
+            animation: 3s linear 0s forwards slideDown
+        }
+        @keyframes slideDown {
+            0% { margin-top: -200%}
+            50% { margin-top: -100%; }
+            100% { margin-top: 0%; }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul class='links'>
+            <li><a href="./assignment01/index.html">Assignment01</a></li>
+            <li><a href="./assignment02/index.html">Assignment02</a></li>
+            <li><a href="./assignment03/index.html">Assignment03</a></li>
+            <li><a href="./assignment04/index.html">Assignment04</a></li>
+            <li><a href="./assignment05/index.html">Assignment05</a></li>
+            <li><a href="./assignment06/index.html">Assignment06</a></li>
+            <li><a href="./assignment07/index.html">Assignment07</a></li>
+        </ul>
+    </div>
+</body>
+</html>
