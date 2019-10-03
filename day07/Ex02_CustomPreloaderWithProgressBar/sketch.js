@@ -6,17 +6,17 @@
 var counter = 0;
 var maxCounter = 0;
 
-function preload() {
+function preload() {    //so if i have to load up a lot of images, and from different directory, i can use this method
   for (var j = 1; j < 6; j++) {
     for (var i = 0; i < 49; i++) {
       maxCounter++;
-      var tempImage = loadImage('images'+j+'/' + i + '.png', updateCounter);
+      var tempImage = loadImage('images'+j+'/' + i + '.png', updateCounter);  // its a callback 
     }
   }
 }
 
 // this function is called when a load request finishes
-function updateCounter() {
+function updateCounter() {    // invoked inside the preload
   // increase our counter
   counter++;
 

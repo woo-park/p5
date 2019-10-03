@@ -42,6 +42,8 @@ function setup() {
   imageMode(CENTER);
 }
 
+
+
 function draw() {
   // note - we are drawing all images from their center points in this sketch,
   // not their top left points
@@ -167,6 +169,11 @@ class Key {
     this.yPos = 100;
   }
 }
+
+
+
+
+
 
 
 // our enemy class
