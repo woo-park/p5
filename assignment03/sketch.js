@@ -1,47 +1,10 @@
 //############################################################################################################//    
 /*
-For this assignment you will be creating a brand new game that uses techniques that we have covered over the past few weeks. 
-The content of your game is completely up to you, but your game conform to the following specifications:
 
-Game Specifications
-Spend a little time coming up with an overarching theme for your game. 
 
-Is this going to be a game about aliens and spaceships, a fantasy game with dragons and swords, or a peaceful game with bunnies and kittens? 
 
-Take your time and brainstorm some ideas before you begin to code your game. 
 
-You will probably want to visit some random websites for inspiration and begin collecting graphics that may be useful for your game during this phase of development.
 
-You must have a user controlled character of some kind. 
-
-Your character must be controlled using key presses. 
-
-Feel free to use any sample code that we have gone through in class so far.
-
-You need to have at least one "objective" in your game 
-- this can be an object that you need to collect (i.e. a coin) or some condition that needs to be met 
-(i.e. get from one side of the screen to the other) -- or something else of your choosing.
-You will need at least one "obstacle" in your game 
-- this can be a computer-controlled character that you need to avoid or some kind of barrier that you need to navigate around, or something else of your choosing.
-You will need some kind of scoring system
-
-Your program will need some kind of HTML interface that is used by your game. 
-For example, you can implement a "cheat mode" panel in HTML that contains a slider that lets you dictate the speed of an enemy character)
-
-Your program should have a "start" screen that lets you select a level of difficulty for your game. 
-
-The game should be in "pause" mode until you select your difficulty level.
-
-You will need trigger at least one sound file during your game
-
-You will need to use external graphics for your characters and for the background of your game
-
-You will need to develop a fully styled HTML page for this project (i.e. you can't just pop a canvas on the page at the top right and call it a day!) 
-- a fully styled page includes a background color/image, some text/directions on how to play the game, and the game placed in a purposeful way 
-(i.e. in a container, centered on the page, etc)
-
-Extra credit: implement multiple canvases on the page
-Physical Controller
 
 On Tuesday's class you will work in teams to create a simple physical controller for your game using a Makey Makey keyboard emulator. 
 We will go over how to do this in class, but you will be responsible to building a controller an documenting it using text, images and/or video.
@@ -50,7 +13,9 @@ Documentation
 
 Create a web page that showcases your game called "assignment03.html" 
 - this page should be linked from your main "interactive" page (index.html). 
+
 Include a playable version of your game. 
+
 Also include a brief written overview of your design process and any inspirations that led you to try and build this kind of game. 
 Keep in mind that you are writing for an audience that is potentially bigger than just our class, 
 so make your post interesting and include multimedia (images, videos, etc) as appropriate. 
@@ -151,7 +116,7 @@ function draw() {
   fill(255);
   text("Points: " + points, 20, 20);
 
-  
+  //!
   player1.move();
   player1.display();
 
